@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Swing Calculator:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Swing_Calculator_jar</output-path>
+    <root id="archive" name="Swing Calculator.jar">
+      <element id="module-output" name="Swing Calculator" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/External/MathParser.org-mXparser-v.4.2.0/MathParser.org-mXparser-v.4.2.0/bin-only/jdk.1.9/MathParser.org-mXparser-v.4.2.0-jdk.1.9.jar" path-in-jar="/" />
+      <element id="library" level="project" name="src" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="478" height="476"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="bf13b" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="84775" class="javax.swing.JButton" binding="Button9">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="9"/>
+            </properties>
+          </component>
+          <component id="ad66b" class="javax.swing.JButton" binding="Button4">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="4"/>
+            </properties>
+          </component>
+          <component id="73577" class="javax.swing.JButton" binding="Button5">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="5"/>
+            </properties>
+          </component>
+          <component id="b20b1" class="javax.swing.JButton" binding="Button8">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="8"/>
+            </properties>
+          </component>
+          <component id="84676" class="javax.swing.JButton" binding="Button6">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="6"/>
+            </properties>
+          </component>
+          <component id="3f05a" class="javax.swing.JButton" binding="Button7">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="7"/>
+            </properties>
+          </component>
+          <component id="37dda" class="javax.swing.JButton" binding="DELButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="DEL"/>
+            </properties>
+          </component>
+          <component id="aef76" class="javax.swing.JButton" binding="ACButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="AC"/>
+            </properties>
+          </component>
+          <component id="ec0ed" class="javax.swing.JButton" binding="DivButton">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="/"/>
+            </properties>
+          </component>
+          <component id="9dcaa" class="javax.swing.JButton" binding="MulButton">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="x"/>
+            </properties>
+          </component>
+          <component id="14f6e" class="javax.swing.JButton" binding="Button1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="1"/>
+            </properties>
+          </component>
+          <component id="be9cd" class="javax.swing.JButton" binding="Button2">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="2"/>
+            </properties>
+          </component>
+          <component id="3e02d" class="javax.swing.JButton" binding="Button3">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="3"/>
+            </properties>
+          </component>
+          <component id="92927" class="javax.swing.JButton" binding="AddButton">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="+"/>
+            </properties>
+          </component>
+          <component id="6651" class="javax.swing.JButton" binding="SubButton">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="-"/>
+            </properties>
+          </component>
+          <component id="ee9af" class="javax.swing.JButton" binding="Button0">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="0"/>
+            </properties>
+          </component>
+          <component id="bea97" class="javax.swing.JButton" binding="EqualsButton">
+            <constraints>
+              <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="="/>
+            </properties>
+          </component>
+          <component id="d5f7b" class="javax.swing.JButton" binding="OpenBrButton">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="("/>
+            </properties>
+          </component>
+          <component id="1b358" class="javax.swing.JButton" binding="CloseBrButton">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value=")"/>
+            </properties>
+          </component>
+          <component id="f4a17" class="javax.swing.JButton" binding="DecButton">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font size="18"/>
+              <text value="."/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="e8b87" class="javax.swing.JTextField" binding="Output">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="2" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="36"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
