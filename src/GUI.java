@@ -27,6 +27,20 @@ public class GUI extends JFrame{
     private JButton AddButton;
     private JButton SubButton;
     private JButton EqualsButton;
+    private JButton sinButton;
+
+    private JButton cosButton;
+    private JButton tanButton;
+    private JButton sqButton;
+    private JButton sqrtButton;
+    private JButton asinButton;
+    private JButton atanButton;
+    private JButton acosButton;
+    private JButton logButton;
+    private JButton piButton;
+    private JButton eulerButton;
+    private JButton absButton;
+    private JButton lnButton;
 
 
     public GUI(){
@@ -53,6 +67,20 @@ public class GUI extends JFrame{
             button.addActionListener(e -> Output.setText(Output.getText() + button.getText()));
         }
 
+        JButton trigFunc[] = {sinButton, cosButton, tanButton, asinButton, acosButton, atanButton};
+        for (JButton button:trigFunc) {
+            button.addActionListener(e -> Output.setText(Output.getText() + button.getText() + "("));
+        }
+
+        logButton.addActionListener(e -> Output.setText(Output.getText() + "log10("));
+        lnButton.addActionListener(e -> Output.setText(Output.getText() + "ln("));
+        absButton.addActionListener(e -> Output.setText(Output.getText() + "abs("));
+
+        piButton.addActionListener(e -> Output.setText(Output.getText() + "π"));
+        eulerButton.addActionListener(e -> Output.setText(Output.getText() + "e"));
+
+        sqButton.addActionListener(e -> Output.setText(Output.getText() + "^2"));
+        sqrtButton.addActionListener(e -> Output.setText(Output.getText() + "sqrt("));
 
         ACButton.addActionListener(e -> Output.setText(""));
         DELButton.addActionListener(e -> {
