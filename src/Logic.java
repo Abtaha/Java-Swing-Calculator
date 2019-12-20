@@ -60,11 +60,11 @@ public class Logic {
         text = text.replace("x", "*");
 
         text = text.replace("π", "pi");
+        text = text.replace("e", "e");
 
 
         if (text.length() != 0) {
             if (checkInput(text) == "Math Error") {
-                System.out.println(text);
                 return "Math Error";
             }
 
